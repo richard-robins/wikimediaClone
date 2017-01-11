@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  margin: auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  /*max-width: 1000px;*/
+}
+
+.IntroParagraph {
+  justify-content: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.welcome {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items:baseline;
+
+}
+
+.col {
+  padding: 5%;
+  flex-grow: : 1;
+  flex-basis: 25%;
+  
+}
