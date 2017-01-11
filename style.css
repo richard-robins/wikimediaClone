@@ -30,13 +30,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
-  align-items:baseline;
+  align-items: baseline;;
+  padding: 10px;
+  /*border: 1px red solid;*/
 
 }
 
 .col {
-  padding: 5%;
+  margin: 5px;
   flex-grow: : 1;
-  flex-basis: 25%;
-  
+  flex-shrink: 1;
+  flex-basis: 23%;
+  /*border: 1px blue solid;*/
+
+
 }
