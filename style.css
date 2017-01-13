@@ -31,7 +31,7 @@
   flex-wrap: wrap;
   justify-content:space-around;
   align-items: baseline;;
-  padding: 10px;
+  padding-left: 200px;
   /*border: 1px red solid;*/
 
 }
@@ -42,6 +42,30 @@
   flex-shrink: 1;
   flex-basis: 23%;
   /*border: 1px blue solid;*/
+}
 
+.line{
+  font-size: 1px;
+  width: 78%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 
+}
+
+.footerTextBox {
+
+}
+
+.footerMessage {
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.links {
+  margin: 10px;
 }
